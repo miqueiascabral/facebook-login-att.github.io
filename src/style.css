@@ -1,0 +1,73 @@
+*{ /*boas praticas para resetar a pagina*/
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont-principal{ /*div da tela principal que tem o gradiente*/
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px; /*tamanho de fonte padrao para o projeto*/
+
+    padding-top: 60px; /*para distanciar a div filha do topo da pagina pai*/
+
+    /*largura e altura da div pai*/
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(252, 252, 252);
+    
+    /*gradiente padrao para rodar em todos os navegadores*/
+    background:linear-gradient(to bottom, #002aff,#001fba,#00178a, #001475, #0b1f85);
+    background:-o-linear-gradient(to bottom, #002aff,#001fba,#00178a, #001475, #0b1f85);
+    background: -moz-linear-gradient(to bottom, #002aff,#001fba,#00178a, #001475, #0b1f85);
+    background: -webkit-linear-gradient(to bottom, #002aff,#001fba,#00178a, #001475, #0b1f85);
+
+}
+.title-page{ /*titulo da div*/
+    font-size: 55px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:5px;
+}
+.camp-login{ 
+    padding-top: 15px;/*espaçamento do topo da page*/
+    text-align: center; /*alinhando os textos ao centro da div*/
+    margin:0 auto; /*centraliza a div na page*/
+    width: 360px;
+    height: 450px;
+    border-radius: 6px;
+    border: 1px solid rgb(80, 95, 230);
+    
+}
+::placeholder{ /*configs placeholder*/
+    text-indent: 5%;
+    
+}
+.enter1, .enter2, .botao-page{ /*configs padroes dos inputs*/
+    width: 285px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin: -5px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px black;
+    
+}
+.enter1{
+    margin-top: 20px;
+    opacity: 30%;
+}
+.enter2{
+    opacity: 30%;
+}
+.botao-page{
+    height: 40px;
+    margin-top: 5px;
+    color: transparent;
+    color: whitesmoke;
+    opacity: 50%;
+    background-color: rgb(26, 39, 219);
+}
+.botao-page:hover{
+    background-color: rgb(9, 21, 197);
+    
+}
